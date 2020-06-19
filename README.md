@@ -22,6 +22,33 @@ SO THAT I have quick access to emails and GitHub profiles
 
 * Moreover, I am unsure how to allow the user to continue with the prompts if the answer of the confirm is "yes," or to end the session if the answer of the confirms is "no"
 
+## Application Screenshot
+
+![alt text](./Assets/assignment10-screen_shot.png "Assignment 10 Screen Shot")
+
+## Accessories Used
+### Languages
+* HTML
+* CSS
+* JavaScript
+* [jQuery](https://jquery.com/)
+* [Bootstrap CSS Framework](https://getbootstrap.com/)
+* [Font Awesome](https://fontawesome.com/)
+
+### Programs and Applications
+* [Node.js](https://nodejs.org/en/)
+* Git/Terminal
+
+### Packages
+* [Express](https://expressjs.com/)
+* [jest](https://jestjs.io/)
+* Inquirer
+* AXIOS
+* fs
+
+### Websites
+* [GitHub](https://github.com/) (API)
+
 ## Deployed links:
 
 * GitHub repository URL: https://github.com/MG-cpu90/assignment10
