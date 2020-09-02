@@ -58,6 +58,7 @@ const renderIntern = intern => {
     return template;
 };
 
+// Arrow function for rendering main html
 const renderMain = html => {
     const template = fs.readFileSync(path.resolve(templatesDir, "main.html"), "utf8");
     return replacePlaceholders(template, "team", html);
