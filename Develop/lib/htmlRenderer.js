@@ -47,6 +47,7 @@ const renderEngineer = engineer => {
     return template;
 };
 
+// Arrow function for rendering html for intern
 const renderIntern = intern => {
     let template = fs.readFileSync(path.resolve(templatesDir, "intern.html"), "utf8");
     template = replacePlaceholders(template, "name", intern.getName());
