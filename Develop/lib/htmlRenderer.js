@@ -25,6 +25,7 @@ const render = employees => {
 
 };
 
+// Arrow function for rendering html for manager
 const renderManager = manager => {
     let template = fs.readFileSync(path.resolve(templatesDir, "manager.html"), "utf8");
     template = replacePlaceholders(template, "name", manager.getName());
