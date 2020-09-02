@@ -4,6 +4,7 @@ const fs = require("fs");
 
 const templatesDir = path.resolve(__dirname, "../templates");
 
+// Arrow function for rendering html for employees
 const render = employees => {
     const html = [];
 
