@@ -69,4 +69,5 @@ const replacePlaceholders = (template, placeholder, value) => {
     return template.replace(pattern, value);
 };
 
+// Export
 module.exports = render;
