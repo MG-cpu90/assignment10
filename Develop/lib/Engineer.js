@@ -1,6 +1,7 @@
+// variables: require Employee
 const Employee = require("./Employee");
 
-// Code to define and export the Engineer class.  HINT: This class should inherit from Employee.
+// Code to define and export the Engineer class, which inherts from Employee
 class Engineer extends Employee {
     constructor(name, id, email, github) {
 
